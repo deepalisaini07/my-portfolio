@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Deepali Saini</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: white;
+      color: #333;
+    }
+    /* Navbar */
+    .navbar {
+      background: #09618F;
+      padding: 12px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar .logo {
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .navbar .nav-links a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    /* Projects Container */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #04699F;
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #04699F;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      border-left: 4px solid #1f3c88;
+      padding-left: 10px;
+    }
+    /* Project Cards */
+    .projects-grid {
+      display: grid;
+      gap: 25px;
+    }
+    .project {
+      background: linear-gradient(to bottom, #bfdced 0%, #e3f3fd 100%);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease-in-out;
+      text-align: center;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #04699F;
+    }
+    .project p {
+      font-size: 14px;
+      line-height: 1.6;
+      color: black;
+
+    }
+    /* Button */
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 8px 20px;
+      background: white;
+      color: #04699F;
+      border: 3px solid #04699F;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #04699F;
+color: white;
+    }
+    /* Graphic Design (center single project) */
+    .graphic-center {
+      display: flex;
+      justify-content: center;
+    }
+    .graphic-center .project {
+      width: 60%;
+    }
+    /* Web Design 2x2 grid */
+    .web-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    /* UI Design 3 equal columns */
+    .ui-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  </style>
+</head>
+<body>
+
+   <!-- Navbar -->
+  <div class="navbar">
+    <div class="logo">Deepali Saini</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="resume.html">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+  <div class="container">
+    <h1>My Projects</h1>
+
+    <!-- Graphic Design -->
+    <h2>Graphic Design</h2><br><br>
+    <div class="graphic-center">
+      <div class="project">
+        <h3>Poster Design</h3>
+        <p>Created promotional posters for college events using Photoshop and Canva.</p>
+        <a href="https://www.behance.net/deepalisaini7" class="btn">View</a>
+      </div>
+    </div><br>
+
+        <!-- UI Design -->
+    <h2>UI Design</h2><br><br>
+    <div class="projects-grid ui-grid">
+      <div class="project">
+        <h3>Mobile Popup</h3>
+        <p>Designed a modern popup interface for mobile devices using Figma.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+      <div class="project">
+        <h3>Desktop Popup</h3>
+        <p>Created a popup modal interface for desktop applications with clean and user-friendly design.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+      <div class="project">
+        <h3>E-Commerce App Design</h3>
+        <p>Designed a simple and responsive form UI with neat input fields and buttons.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+    </div>
+
+    <!-- Web Design -->
+    <h2>Web Design</h2><br><br>
+    <div class="projects-grid web-grid">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>Developed a personal portfolio using HTML, CSS, and JavaScript to showcase my skills.</p>
+        <a href="#" class="btn">View</a>
+      </div>
+      <div class="project">
+        <h3>Calculator</h3>
+        <p>Built a calculator using HTML, CSS, ANS JavaScript.</p>
+        <a href="https://deepalisaini07.github.io/simple-calculator/" class="btn">View</a>
+      </div>
+      <div class="project">
+        <h3>Age Calculator</h3>
+        <p>Created a simple Age Calculator using HTML,CSS, and JavaScript.</p>
+        <a href="https://deepalisaini07.github.io/age-calculator/" class="btn">View</a>
+      </div>
+      <div class="project">
+        <h3>Coffee Website</h3>
+        <p>Made Coffee Website using HTML, CSS, and JavaScript.</p>
+        <a href="https://deepalisaini07.github.io/coffee-website/" class="btn">View</a>
+      </div>
+    </div><br>
+
+  </div>
+
+</body>
+</html>
