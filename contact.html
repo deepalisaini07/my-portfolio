@@ -4,66 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - Deepali</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background: #eef2f7;
+      text-align: center;
     }
+
     /* Navbar */
     .navbar {
       background: #09618F;
-      padding: 12px 30px;
+      padding: 12px 20px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .navbar .logo {
       color: white;
-      font-size: 20px;
       font-weight: bold;
     }
     .navbar .nav-links a {
       color: white;
-      margin-left: 20px;
+      margin-left: 15px;
       text-decoration: none;
-      font-size: 16px;
-font-weight: bold;
+      font-weight: bold;
     }
-    
 
-    /* Contact Box */
-    .contact-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: calc(100vh - 70px);
-    }
+    /* Contact Card */
     .contact-box {
-    background: linear-gradient(to bottom, #bfdced 0%, #e3f3fd 100%);
-      padding: 30px;
-      width: 400px;
-      border-radius: 8px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+      background: linear-gradient(#bfdced, #e3f3fd);
+      width: 350px;
+      margin: 60px auto;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
-    h1 {
-      text-align: center;
+    .contact-box h1 {
       color: #04699F;
       margin-bottom: 20px;
-      font-size: 22px;
     }
+
+    /* Info Items */
     .info p {
-      font-size: 15px;
-      margin: 12px 0;
+      margin: 15px 0;
       color: #333;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .info i {
+      color: #04699F;
+      margin-right: 10px;
+      font-size: 18px;
+      width: 20px;
+      text-align: center;
     }
     .info a {
-      color: #1f3c88;
+      color: #04699F;
       text-decoration: none;
     }
     .info a:hover {
       text-decoration: underline;
+    }
+
+    .info {
+      text-align: left;
     }
   </style>
 </head>
@@ -81,21 +90,20 @@ font-weight: bold;
     </div>
   </div>
 
-  <!-- Contact Section -->
-  <div class="contact-container">
-    <div class="contact-box">
-      <h1>Contact Me</h1>
-      <div class="info">
-        <p>📞 <b>Phone:</b> 9813843740</p>
-        <p>📧 <b>Email:</b> <a href="mailto:deepalisaini4488@gmail.com">deepalisaini4488@gmail.com</a></p>
-        <p>📍 <b>Address:</b> Bahadurgarh (124507), Haryana, India</p>
-        <p>🌐 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/deepali-saini-97467725b/">linkedin.com/in/deepali</a></p>
-      
-      </div>
+   <!-- Contact Box -->
+  <div class="contact-box">
+    <h1>Contact Me</h1>
+    <div class="info">
+      <p><i class="phone"></i> +91-9813843740</p>
+      <p><i class="mail"></i> <a href="mailto:deepalisaini4488@gmail.com">deepalisaini4488@gmail.com</a></p>
+      <p><i class="location"></i> Bahadurgarh, Haryana, India</p>
+      <p><i class="linkedin"></i> <a href="https://www.linkedin.com/in/deepali-saini-97467725b/" target="_blank">linkedin.com/in/deepali</a></p>
     </div>
   </div>
 
 </body>
 </html>
+
+
 
 
